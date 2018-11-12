@@ -1,3 +1,28 @@
+# New version!!!
+
+This branch has reached its EOL.
+
+You can get the new improved, revamped and powerful version at [vue-daval](https://github.com/deulos/vue-daval).
+
+The basics are the same but now it has more options and much more improvements. Here is a small list of them:
+* Validating now uses promises instead of passing callbacks as parameters.
+* The path to validate is not a string anymore.
+* You can add you own validators and messages.
+* It also validates computed values.
+* Custom rules now just return `true`, `false`, or an error message.
+* You can use links to concat validations.
+* Performance improved.
+* Better handling of wrong paths.
+* Error messages more customizable.
+* Clever dynamic data handling.
+* Added options: `validateOnType`, `skipValidationsOnError` and `skipRulesOnError`.
+* Added path properties
+* Rules can be dynamic
+
+Because of all new features and easier reach, I renamed the component to vue-daval (**Vue** **Da**ta **Val**idation)
+
+So this version will not be updated anymore and you have to switch to the new branch. But do not worry, update will be easy and straight as the simplicity is maintained and even increased.
+
 ## Overview
 
 This is a Vue data validator, developed with the lack of other valiadtors in mind.
